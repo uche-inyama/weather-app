@@ -1,0 +1,49 @@
+#root {
+  height: 200vh;
+}
+
+.row {
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.containerDiv {
+  padding: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.search,
+.temp-units {
+  margin-bottom: 20px;
+}
+.weatherInfo {
+  color: black;
+  display: flex;
+  font-size: 25px;
+  font-weight: 700px;
+  padding-top: 20px;
+  flex-direction: column;
+}
+.search,
+.btnSearch,
+.temp-units {
+  height: 40px;
+  width: 300px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+}
